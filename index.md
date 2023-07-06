@@ -6,7 +6,7 @@ flowchart
   subgraph Gen3
   end
   subgraph Gen2
-    H8[Henry VIII]
+    H8[Henry VIII]---J[Jane Seymour]
   end
   subgraph Gen1
     H7[Henry VII]---E[Elizabeth of York]
