@@ -3,6 +3,8 @@
 title: House of Tudor Line of Succession
 ---
 flowchart
+  subgraph Gen3
+  end
   subgraph Gen2
     H8[Henry VIII]---C[Catherine of Aragon]
   end
@@ -11,4 +13,5 @@ flowchart
   end
 
   Gen1---Gen2
+  Gen2---Gen3
 ```
